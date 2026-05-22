@@ -1,0 +1,782 @@
+[
+  {
+    "id": "fool",
+    "number": 0,
+    "name": "愚者",
+    "englishName": "The Fool",
+    "arcana": "major",
+    "upright": "自由、冒险、新起点、天真无邪",
+    "reversed": "鲁莽、冒险、缺乏方向、冲动行事",
+    "description": "愚者牌可能象征新旅程的开始，充满无限可能。这张牌提示你跟随内心的直觉，勇敢迈出第一步，同时提醒不要过于冲动。"
+  },
+  {
+    "id": "magician",
+    "number": 1,
+    "name": "魔术师",
+    "englishName": "The Magician",
+    "arcana": "major",
+    "upright": "创造、技巧、意志力、资源丰富",
+    "reversed": "欺骗、操控、才能浪费、缺乏行动",
+    "description": "魔术师牌提示你拥有实现目标所需的一切资源，可能象征创造力与行动力的结合，提醒善用自身才能而非虚耗浪费。"
+  },
+  {
+    "id": "high-priestess",
+    "number": 2,
+    "name": "女祭司",
+    "englishName": "The High Priestess",
+    "arcana": "major",
+    "upright": "直觉、神秘、内在智慧、潜意识",
+    "reversed": "忽略直觉、表面化、秘密、内心混乱",
+    "description": "女祭司牌可能象征内心深处的直觉与潜在智慧，提示你倾听潜意识传递的声音，提醒不要忽略内在的感知与洞察力。"
+  },
+  {
+    "id": "empress",
+    "number": 3,
+    "name": "女皇",
+    "englishName": "The Empress",
+    "arcana": "major",
+    "upright": "丰饶、孕育、自然、感官享受",
+    "reversed": "依赖、创造力受阻、过度溺爱、忽视自我",
+    "description": "女皇牌可能象征丰收与滋养的力量，提示你关注生活中的美好与舒适，提醒在给予他人关怀时也不要忽视自身需求。"
+  },
+  {
+    "id": "emperor",
+    "number": 4,
+    "name": "皇帝",
+    "englishName": "The Emperor",
+    "arcana": "major",
+    "upright": "权威、结构、稳定、领导力",
+    "reversed": "专制、僵化、控制欲过强、缺乏弹性",
+    "description": "皇帝牌可能象征秩序与权威的力量，提示你建立稳固的结构与规则来支撑发展，提醒不要让控制欲变成僵化与专横。"
+  },
+  {
+    "id": "hierophant",
+    "number": 5,
+    "name": "教皇",
+    "englishName": "The Hierophant",
+    "arcana": "major",
+    "upright": "传统、指引、信仰、教育",
+    "reversed": "叛逆、打破常规、教条主义、盲从",
+    "description": "教皇牌可能象征传统智慧与精神上的指引，提示你从既有经验中获取启发和力量，提醒在遵循传统时也保持独立思考。"
+  },
+  {
+    "id": "lovers",
+    "number": 6,
+    "name": "恋人",
+    "englishName": "The Lovers",
+    "arcana": "major",
+    "upright": "爱情、选择、和谐、价值观",
+    "reversed": "失衡、犹豫不决、价值冲突、不和谐",
+    "description": "恋人牌可能象征重要的选择与深层的心灵联结，提示你在决定中忠于内心，提醒每段关系都需要真诚与平衡来维系。"
+  },
+  {
+    "id": "chariot",
+    "number": 7,
+    "name": "战车",
+    "englishName": "The Chariot",
+    "arcana": "major",
+    "upright": "胜利、意志、决心、控制",
+    "reversed": "失控、挫败、攻击性、方向迷失",
+    "description": "战车牌可能象征凭借坚定意志取得的胜利，提示你集中力量向目标稳步前进，提醒不要因急躁而失去对局面的掌控。"
+  },
+  {
+    "id": "strength",
+    "number": 8,
+    "name": "力量",
+    "englishName": "Strength",
+    "arcana": "major",
+    "upright": "勇气、耐心、内在力量、柔韧",
+    "reversed": "软弱、自我怀疑、缺乏勇气、暴躁",
+    "description": "力量牌可能象征内心深处的坚韧与温柔之劲，提示你以耐心和慈悲面对挑战，提醒真正的力量来自内在而非外在。"
+  },
+  {
+    "id": "hermit",
+    "number": 9,
+    "name": "隐者",
+    "englishName": "The Hermit",
+    "arcana": "major",
+    "upright": "内省、独处、智慧、寻求真理",
+    "reversed": "孤立、逃避、固执己见、拒绝引导",
+    "description": "隐者牌可能象征向内探索与自我反思的旅程，提示你在独处中寻找内心深处的答案，提醒不要将自我隔离变成逃避现实。"
+  },
+  {
+    "id": "wheel-of-fortune",
+    "number": 10,
+    "name": "命运之轮",
+    "englishName": "Wheel of Fortune",
+    "arcana": "major",
+    "upright": "转变、机遇、循环、命运",
+    "reversed": "厄运、抗拒改变、失控、起伏不定",
+    "description": "命运之轮牌可能象征变化的无常循环与转机，提示你顺应生命起伏的节奏前行，提醒起落皆是常态，不必过度执着。"
+  },
+  {
+    "id": "justice",
+    "number": 11,
+    "name": "正义",
+    "englishName": "Justice",
+    "arcana": "major",
+    "upright": "公正、真相、因果、责任",
+    "reversed": "不公、偏见、逃避责任、不诚实",
+    "description": "正义牌可能象征公平与因果法则的运作，提示你以诚实和客观的态度面对事物，提醒每个选择都伴随着相应的责任。"
+  },
+  {
+    "id": "hanged-man",
+    "number": 12,
+    "name": "倒吊人",
+    "englishName": "The Hanged Man",
+    "arcana": "major",
+    "upright": "牺牲、等待、新视角、放下",
+    "reversed": "拖延、抗拒牺牲、无意义等待、固执",
+    "description": "倒吊人牌可能象征暂停与换位思考，提示你有时候需要放下执念才能看清真相，提醒被动的等待也可能是主动的选择。"
+  },
+  {
+    "id": "death",
+    "number": 13,
+    "name": "死神",
+    "englishName": "Death",
+    "arcana": "major",
+    "upright": "结束、转化、重生、放下过去",
+    "reversed": "抗拒改变、停滞、恐惧、不愿放手",
+    "description": "死神牌可能象征旧的结束与新的开始之间的转化，提示你接受变化带来的洗礼，提醒结束并非终结而是蜕变的起点。"
+  },
+  {
+    "id": "temperance",
+    "number": 14,
+    "name": "节制",
+    "englishName": "Temperance",
+    "arcana": "major",
+    "upright": "平衡、节制、和谐、中庸",
+    "reversed": "失衡、过度、缺乏耐心、极端",
+    "description": "节制牌可能象征内外平衡与适度之美的智慧，提示你在生活中寻找中庸之道，提醒过犹不及，凡事保持节制与耐心的心。"
+  },
+  {
+    "id": "devil",
+    "number": 15,
+    "name": "恶魔",
+    "englishName": "The Devil",
+    "arcana": "major",
+    "upright": "束缚、诱惑、执念、物质依赖",
+    "reversed": "解脱、打破束缚、觉醒、重获自由",
+    "description": "恶魔牌可能象征某种执念或束缚，提示你审视内心的欲望与依赖，提醒那些看似困住你的锁链往往是自己套上的。"
+  },
+  {
+    "id": "tower",
+    "number": 16,
+    "name": "塔",
+    "englishName": "The Tower",
+    "arcana": "major",
+    "upright": "崩塌、突变、觉醒、真相揭露",
+    "reversed": "逃避灾难、恐惧改变、延迟崩塌、抗拒转化",
+    "description": "塔牌可能象征突如其来的变化与真相的暴露，提示你有时候破旧才能立新，提醒在风暴过后重建将变得更加坚实可靠。"
+  },
+  {
+    "id": "star",
+    "number": 17,
+    "name": "星星",
+    "englishName": "The Star",
+    "arcana": "major",
+    "upright": "希望、灵感、宁静、信心",
+    "reversed": "失望、绝望、失去信心、脱离现实",
+    "description": "星星牌可能象征希望与内心宁静的指引之光，提示你即使在困难中也要坚持信念，提醒灵感往往来自最安静的角落。"
+  },
+  {
+    "id": "moon",
+    "number": 18,
+    "name": "月亮",
+    "englishName": "The Moon",
+    "arcana": "major",
+    "upright": "幻觉、不安、潜意识、直觉",
+    "reversed": "走出迷雾、释放恐惧、真相浮现、清醒",
+    "description": "月亮牌可能象征内心深处的不安与幻觉的迷雾，提示你分辨现实与想象的边界，提醒恐惧往往来自未知而非真相本身。"
+  },
+  {
+    "id": "sun",
+    "number": 19,
+    "name": "太阳",
+    "englishName": "The Sun",
+    "arcana": "major",
+    "upright": "喜悦、成功、活力、乐观",
+    "reversed": "短暂的快乐、过度乐观、自信不足、阴影",
+    "description": "太阳牌可能象征光明与喜悦的充沛能量，提示你尽情拥抱当下的快乐与成就，提醒真诚的笑容具有温暖一切的力量。"
+  },
+  {
+    "id": "judgement",
+    "number": 20,
+    "name": "审判",
+    "englishName": "Judgement",
+    "arcana": "major",
+    "upright": "觉醒、审视、重生、召唤",
+    "reversed": "自我怀疑、拒绝审视、逃避审视、犹豫不决",
+    "description": "审判牌可能象征深刻的自我审视与觉醒，提示你认真回顾过往并做出抉择，提醒只有正视过去才能迎来新的开始。"
+  },
+  {
+    "id": "world",
+    "number": 21,
+    "name": "世界",
+    "englishName": "The World",
+    "arcana": "major",
+    "upright": "完成、圆满、成就、整合",
+    "reversed": "未完成、缺乏闭合、延迟、缺憾",
+    "description": "世界牌可能象征一个周期的圆满完成与整合，提示你庆祝已有的成就，提醒每一段旅程的终点也是新旅程的起点。"
+  },
+  {
+    "id": "wands-1",
+    "number": 1,
+    "name": "权杖Ace",
+    "englishName": "Ace of Wands",
+    "arcana": "minor",
+    "upright": "灵感、创造、激情、新机遇",
+    "reversed": "创意受阻、缺乏动力、延迟、热情消退",
+    "description": "权杖Ace可能象征创意的火种与新的激情涌现，提示你抓住灵感的瞬间，提醒行动力是将想法变为现实的关键。"
+  },
+  {
+    "id": "wands-2",
+    "number": 2,
+    "name": "权杖二",
+    "englishName": "Two of Wands",
+    "arcana": "minor",
+    "upright": "规划、决策、远见、探索",
+    "reversed": "犹豫不决、缺乏规划、害怕未知、固守",
+    "description": "权杖二可能象征站在选择的路口眺望远方，提示你为未来做出清晰的规划，提醒只停留在想象中而不行动将一无所获。"
+  },
+  {
+    "id": "wands-3",
+    "number": 3,
+    "name": "权杖三",
+    "englishName": "Three of Wands",
+    "arcana": "minor",
+    "upright": "扩展、远见、合作、进展",
+    "reversed": "阻碍、延迟、缺乏远见、计划受挫",
+    "description": "权杖三可能象征事业的扩展与远方机遇的到来，提示你保持开阔的视野与坚定的信心，提醒耐心等待播种之后的收获时节。"
+  },
+  {
+    "id": "wands-4",
+    "number": 4,
+    "name": "权杖四",
+    "englishName": "Four of Wands",
+    "arcana": "minor",
+    "upright": "庆祝、归属、和谐、稳定",
+    "reversed": "不安、缺乏归属、过渡期、不稳固",
+    "description": "权杖四可能象征安定与欢庆的愉悦氛围，提示你珍惜生活中温暖美好的时刻，提醒稳固的基础是进一步发展的重要前提。"
+  },
+  {
+    "id": "wands-5",
+    "number": 5,
+    "name": "权杖五",
+    "englishName": "Five of Wands",
+    "arcana": "minor",
+    "upright": "竞争、冲突、挑战、不同意见",
+    "reversed": "避免冲突、妥协、内耗、无力竞争",
+    "description": "权杖五可能象征纷争与竞争的激烈局面，提示你在冲突中寻找建设性的解决之道，提醒良性的竞争也可以催生进步的力量。"
+  },
+  {
+    "id": "wands-6",
+    "number": 6,
+    "name": "权杖六",
+    "englishName": "Six of Wands",
+    "arcana": "minor",
+    "upright": "胜利、认可、荣誉、领导",
+    "reversed": "失败、缺乏认可、自负、失去支持",
+    "description": "权杖六可能象征胜利与被认可的荣耀，提示你享受努力的成果与赞赏，提醒谦逊地接受，骄傲可能让人失去已有的支持。"
+  },
+  {
+    "id": "wands-7",
+    "number": 7,
+    "name": "权杖七",
+    "englishName": "Seven of Wands",
+    "arcana": "minor",
+    "upright": "坚守、防御、挑战、毅力",
+    "reversed": "屈服、放弃、无力抵抗、压力过大",
+    "description": "权杖七可能象征面对压力时的坚持与顽强毅力，提示你守住自己的立场不退缩，提醒适时调整策略比一味硬扛更需要智慧。"
+  },
+  {
+    "id": "wands-8",
+    "number": 8,
+    "name": "权杖八",
+    "englishName": "Eight of Wands",
+    "arcana": "minor",
+    "upright": "速度、行动、变化、讯息",
+    "reversed": "延迟、阻碍、急躁、方向混乱",
+    "description": "权杖八可能象征事物的快速推进与变化的讯息到来，提示你抓住节奏顺势而为，提醒速度虽好但方向比快慢更加重要。"
+  },
+  {
+    "id": "wands-9",
+    "number": 9,
+    "name": "权杖九",
+    "englishName": "Nine of Wands",
+    "arcana": "minor",
+    "upright": "坚韧、防御、毅力、接近目标",
+    "reversed": "疲惫、放弃、防御过度、身心俱疲",
+    "description": "权杖九可能象征在逆境中的坚韧不拔与顽强毅力，提示你即使疲惫也要坚持前行，提醒适时休息才能走得更远更稳。"
+  },
+  {
+    "id": "wands-10",
+    "number": 10,
+    "name": "权杖十",
+    "englishName": "Ten of Wands",
+    "arcana": "minor",
+    "upright": "负担、压力、责任、辛苦",
+    "reversed": "释放负担、委托他人、无法承受、崩溃",
+    "description": "权杖十可能象征过重的担子与沉重的责任，提示你评估哪些是必须承担的，提醒学会分担比独自扛下一切更需要勇气。"
+  },
+  {
+    "id": "wands-page",
+    "number": 11,
+    "name": "权杖侍从",
+    "englishName": "Page of Wands",
+    "arcana": "minor",
+    "upright": "热情、探索、好奇心、新消息",
+    "reversed": "缺乏方向、三分钟热度、拖延、消息延迟",
+    "description": "权杖侍从可能象征对世界的好奇与热情，提示你保持探索的欲望，提醒光有热情还不够，需要持续的专注与行动。"
+  },
+  {
+    "id": "wands-knight",
+    "number": 12,
+    "name": "权杖骑士",
+    "englishName": "Knight of Wands",
+    "arcana": "minor",
+    "upright": "行动、冒险、魅力、冲动",
+    "reversed": "鲁莽、不可靠、急躁、缺乏计划",
+    "description": "权杖骑士可能象征充满能量的行动者与冒险者，提示你大胆追求心中所想，提醒没有方向的速度只会让人偏离目标。"
+  },
+  {
+    "id": "wands-queen",
+    "number": 13,
+    "name": "权杖王后",
+    "englishName": "Queen of Wands",
+    "arcana": "minor",
+    "upright": "自信、魅力、热情、独立",
+    "reversed": "嫉妒、操控、不自信、过度强势",
+    "description": "权杖王后可能象征自信与魅力的光芒，提示你用热情感染周围的人，提醒真正的魅力来自内在的笃定而非外在表现。"
+  },
+  {
+    "id": "wands-king",
+    "number": 14,
+    "name": "权杖国王",
+    "englishName": "King of Wands",
+    "arcana": "minor",
+    "upright": "领导、远见、魄力、决断",
+    "reversed": "专制、冲动、缺乏远见、独断专行",
+    "description": "权杖国王可能象征有远见的领袖与决断之力，提示你以魄力和热情引领方向，提醒好的领导者懂得倾听而非一意孤行。"
+  },
+  {
+    "id": "cups-1",
+    "number": 1,
+    "name": "圣杯Ace",
+    "englishName": "Ace of Cups",
+    "arcana": "minor",
+    "upright": "爱、情感、新关系、直觉",
+    "reversed": "情感封闭、冷漠、失恋、压抑",
+    "description": "圣杯Ace可能象征情感的开启与新的缘分，提示你敞开心扉迎接爱的可能性，提醒真实的情感需要勇气去表达。"
+  },
+  {
+    "id": "cups-2",
+    "number": 2,
+    "name": "圣杯二",
+    "englishName": "Two of Cups",
+    "arcana": "minor",
+    "upright": "联结、互惠、吸引力、伙伴",
+    "reversed": "失衡、疏离、关系破裂、不信任",
+    "description": "圣杯二可能象征两颗心灵的深层联结与共鸣，提示你珍惜彼此的默契与付出，提醒真正的关系需要双方的平等与尊重。"
+  },
+  {
+    "id": "cups-3",
+    "number": 3,
+    "name": "圣杯三",
+    "englishName": "Three of Cups",
+    "arcana": "minor",
+    "upright": "友谊、欢聚、庆祝、合作",
+    "reversed": "孤立、争执、过度放纵、疏远",
+    "description": "圣杯三可能象征友谊与欢聚的美好喜悦，提示你享受与挚友共度的快乐时光，提醒快乐需要分享才能倍增其光芒与温暖。"
+  },
+  {
+    "id": "cups-4",
+    "number": 4,
+    "name": "圣杯四",
+    "englishName": "Four of Cups",
+    "arcana": "minor",
+    "upright": "不满、冷漠、忽视机会、倦怠",
+    "reversed": "接受新机会、走出冷漠、重新投入、觉醒",
+    "description": "圣杯四可能象征对现状的倦怠与内心的不满，提示你留意身边被忽视的可能性，提醒有时候机会就在眼前却被漠视。"
+  },
+  {
+    "id": "cups-5",
+    "number": 5,
+    "name": "圣杯五",
+    "englishName": "Five of Cups",
+    "arcana": "minor",
+    "upright": "失落、悲伤、遗憾、关注失去",
+    "reversed": "接受、走出悲伤、找到希望、释怀",
+    "description": "圣杯五可能象征对已失去之物的悲伤，提示你允许自己哀伤但也别忘了还有所拥有，提醒回头看的同时也要向前看。"
+  },
+  {
+    "id": "cups-6",
+    "number": 6,
+    "name": "圣杯六",
+    "englishName": "Six of Cups",
+    "arcana": "minor",
+    "upright": "怀旧、童年、纯真、回忆",
+    "reversed": "沉溺过去、逃避现实、成长、放下",
+    "description": "圣杯六可能象征对美好往昔的怀念与温情，提示你从回忆中汲取温暖与力量，提醒不要让对过去的眷恋阻碍了当下的脚步。"
+  },
+  {
+    "id": "cups-7",
+    "number": 7,
+    "name": "圣杯七",
+    "englishName": "Seven of Cups",
+    "arcana": "minor",
+    "upright": "幻想、选择、迷惑、不切实际",
+    "reversed": "做出选择、清醒、务实、聚焦",
+    "description": "圣杯七可能象征众多可能性带来的迷茫，提示你分辨幻想与现实的差距，提醒做出选择远比拥有无限选项更重要。"
+  },
+  {
+    "id": "cups-8",
+    "number": 8,
+    "name": "圣杯八",
+    "englishName": "Eight of Cups",
+    "arcana": "minor",
+    "upright": "离开、放弃、追寻内心、转变",
+    "reversed": "犹豫不决、逃避、恐惧改变、停滞",
+    "description": "圣杯八可能象征主动离开舒适区去追寻内心的召唤，提示你有勇气告别不再契合的事物，提醒放下有时是为了得到。"
+  },
+  {
+    "id": "cups-9",
+    "number": 9,
+    "name": "圣杯九",
+    "englishName": "Nine of Cups",
+    "arcana": "minor",
+    "upright": "满足、愿望成真、愉悦、享受",
+    "reversed": "不满足、贪婪、愿望落空、空虚",
+    "description": "圣杯九可能象征内心的满足与愿望的甜美达成，提示你享受当下的幸福，提醒真正的满足来自内心而非外在的堆砌。"
+  },
+  {
+    "id": "cups-10",
+    "number": 10,
+    "name": "圣杯十",
+    "englishName": "Ten of Cups",
+    "arcana": "minor",
+    "upright": "幸福、家庭、和谐、圆满",
+    "reversed": "家庭不和、幸福感缺失、理想破灭、表面和谐",
+    "description": "圣杯十可能象征家庭与情感上的圆满与和谐，提示你珍惜身边亲密关系的温暖，提醒幸福往往藏在平凡的日常之中。"
+  },
+  {
+    "id": "cups-page",
+    "number": 11,
+    "name": "圣杯侍从",
+    "englishName": "Page of Cups",
+    "arcana": "minor",
+    "upright": "敏感、直觉、新情感、创意",
+    "reversed": "情绪化、不成熟、逃避现实、内心封闭",
+    "description": "圣杯侍从可能象征敏感与直觉的珍贵天赋，提示你倾听内心深处的细微声音，提醒感性虽美但也需要理性的平衡与引导。"
+  },
+  {
+    "id": "cups-knight",
+    "number": 12,
+    "name": "圣杯骑士",
+    "englishName": "Knight of Cups",
+    "arcana": "minor",
+    "upright": "浪漫、理想主义、邀请、温柔",
+    "reversed": "不切实际、情绪化、不可靠、逃避",
+    "description": "圣杯骑士可能象征浪漫与温柔的深情追求，提示你用心去感受与表达情感，提醒理想若不落地终究只是空中楼阁而已。"
+  },
+  {
+    "id": "cups-queen",
+    "number": 13,
+    "name": "圣杯王后",
+    "englishName": "Queen of Cups",
+    "arcana": "minor",
+    "upright": "慈悲、直觉、情感深度、包容",
+    "reversed": "情绪不稳、过度敏感、依赖、自我牺牲",
+    "description": "圣杯王后可能象征深厚的情感智慧与慈悲，提示你以温柔对待自己和他人，提醒关爱他人的同时也要守护自己的边界。"
+  },
+  {
+    "id": "cups-king",
+    "number": 14,
+    "name": "圣杯国王",
+    "englishName": "King of Cups",
+    "arcana": "minor",
+    "upright": "平衡、智慧、自制、关怀",
+    "reversed": "情绪失控、操控、冷漠、逃避责任",
+    "description": "圣杯国王可能象征情感的成熟与内在的平衡，提示你用理智驾驭情感，提醒真正的强大是既能感受深海又能保持平静。"
+  },
+  {
+    "id": "swords-1",
+    "number": 1,
+    "name": "宝剑Ace",
+    "englishName": "Ace of Swords",
+    "arcana": "minor",
+    "upright": "突破、真相、清晰、力量",
+    "reversed": "混乱、缺乏清晰、不公正、力量受阻",
+    "description": "宝剑Ace可能象征思想的锋利与真相的揭示，提示你用清晰的头脑面对问题，提醒智慧的力量在于知道何时该收锋。"
+  },
+  {
+    "id": "swords-2",
+    "number": 2,
+    "name": "宝剑二",
+    "englishName": "Two of Swords",
+    "arcana": "minor",
+    "upright": "僵局、平衡、选择困难、回避",
+    "reversed": "打破僵局、做出决定、真相暴露、不再逃避",
+    "description": "宝剑二可能象征两难之间的僵持与内心的矛盾挣扎，提示你面对而非回避选择，提醒蒙住双眼并不能让问题自行消失。"
+  },
+  {
+    "id": "swords-3",
+    "number": 3,
+    "name": "宝剑三",
+    "englishName": "Three of Swords",
+    "arcana": "minor",
+    "upright": "心碎、悲伤、痛苦、分离",
+    "reversed": "疗愈、释放痛苦、恢复、走出悲伤",
+    "description": "宝剑三可能象征内心的伤痛与深切的失落感，提示你允许自己去感受和面对痛苦，提醒心碎之后总有愈合的可能与希望。"
+  },
+  {
+    "id": "swords-4",
+    "number": 4,
+    "name": "宝剑四",
+    "englishName": "Four of Swords",
+    "arcana": "minor",
+    "upright": "休息、恢复、冥想、暂停",
+    "reversed": "疲劳、无法休息、匆忙、焦虑",
+    "description": "宝剑四可能象征必要的休息与身心的恢复，提示你给自己喘息的空间，提醒暂停不是放弃而是为下一段旅程积蓄力量。"
+  },
+  {
+    "id": "swords-5",
+    "number": 5,
+    "name": "宝剑五",
+    "englishName": "Five of Swords",
+    "arcana": "minor",
+    "upright": "冲突、失败、纷争、空虚的胜利",
+    "reversed": "和解、弥补、放下执念、走出争端",
+    "description": "宝剑五可能象征冲突中的两败俱伤，提示你审视争斗的代价与意义，提醒赢了争论却失去关系未必是真正的胜利。"
+  },
+  {
+    "id": "swords-6",
+    "number": 6,
+    "name": "宝剑六",
+    "englishName": "Six of Swords",
+    "arcana": "minor",
+    "upright": "过渡、远离困境、旅程、平静",
+    "reversed": "停滞、无法前行、抗拒改变、困顿",
+    "description": "宝剑六可能象征从困境中渐渐走出的过渡阶段，提示你接受这段过渡期的不安，提醒离开虽痛但留在原地更无出路可言。"
+  },
+  {
+    "id": "swords-7",
+    "number": 7,
+    "name": "宝剑七",
+    "englishName": "Seven of Swords",
+    "arcana": "minor",
+    "upright": "策略、欺骗、隐瞒、独来独往",
+    "reversed": "坦白、揭露、改过、不再隐瞒",
+    "description": "宝剑七可能象征隐藏的意图与策略性的行事方式，提示你审视自己做事的方式，提醒取巧的路可能通向更大的麻烦。"
+  },
+  {
+    "id": "swords-8",
+    "number": 8,
+    "name": "宝剑八",
+    "englishName": "Eight of Swords",
+    "arcana": "minor",
+    "upright": "束缚、限制、恐惧、受害者心态",
+    "reversed": "自我解放、走出困境、视角转变、勇气",
+    "description": "宝剑八可能象征自我设限的心理困境，提示你困住自己的往往不是外在束缚而是心念，提醒许多限制只存在于想象之中。"
+  },
+  {
+    "id": "swords-9",
+    "number": 9,
+    "name": "宝剑九",
+    "englishName": "Nine of Swords",
+    "arcana": "minor",
+    "upright": "焦虑、噩梦、担忧、内心折磨",
+    "reversed": "释放焦虑、走出恐惧、面对现实、好转",
+    "description": "宝剑九可能象征深夜里翻涌的焦虑与不安，提示你区分真实的威胁与想象中的恐惧，提醒多数担忧并不会真正发生。"
+  },
+  {
+    "id": "swords-10",
+    "number": 10,
+    "name": "宝剑十",
+    "englishName": "Ten of Swords",
+    "arcana": "minor",
+    "upright": "终结、谷底、背叛、痛苦结束",
+    "reversed": "复苏、走出低谷、好转、拒绝放弃",
+    "description": "宝剑十可能象征痛苦的终结与触底的艰难时刻，提示你已经经历了最坏的情况，提醒谷底之后唯一的方向就是向上前行。"
+  },
+  {
+    "id": "swords-page",
+    "number": 11,
+    "name": "宝剑侍从",
+    "englishName": "Page of Swords",
+    "arcana": "minor",
+    "upright": "好奇、警觉、沟通、思维敏捷",
+    "reversed": "误解、八卦、多疑、沟通不畅",
+    "description": "宝剑侍从可能象征敏锐的观察力与求知的好奇，提示你保持好奇和警觉的心态，提醒聪明才智若用于猜忌则会适得其反。"
+  },
+  {
+    "id": "swords-knight",
+    "number": 12,
+    "name": "宝剑骑士",
+    "englishName": "Knight of Swords",
+    "arcana": "minor",
+    "upright": "果断、行动迅速、直言、进取",
+    "reversed": "鲁莽、好斗、缺乏思考、破坏性",
+    "description": "宝剑骑士可能象征雷厉风行的行动力与果断，提示你果断地抓住时机，提醒速度若没有方向和思考只会造成混乱。"
+  },
+  {
+    "id": "swords-queen",
+    "number": 13,
+    "name": "宝剑王后",
+    "englishName": "Queen of Swords",
+    "arcana": "minor",
+    "upright": "独立、敏锐、公正、清晰",
+    "reversed": "冷漠、苛刻、孤独、过度批判",
+    "description": "宝剑王后可能象征冷静的判断与独立的思考，提示你用理性看清事物的本质，提醒清晰的边界感不等于情感的封闭。"
+  },
+  {
+    "id": "swords-king",
+    "number": 14,
+    "name": "宝剑国王",
+    "englishName": "King of Swords",
+    "arcana": "minor",
+    "upright": "权威、理性、决断、真理",
+    "reversed": "暴虐、冷酷、滥用权力、不讲情理",
+    "description": "宝剑国王可能象征理性与权威的强大力量与判断，提示你以清晰的逻辑做出判断，提醒公正若缺少同情便会走向冷酷。"
+  },
+  {
+    "id": "pentacles-1",
+    "number": 1,
+    "name": "星币Ace",
+    "englishName": "Ace of Pentacles",
+    "arcana": "minor",
+    "upright": "新机遇、财富、安全、根基",
+    "reversed": "失去机会、财务不稳、计划落空、缺乏规划",
+    "description": "星币Ace可能象征物质层面新的开始与机遇，提示你把握手边出现的良机，提醒好的开始是稳固发展的重要基石。"
+  },
+  {
+    "id": "pentacles-2",
+    "number": 2,
+    "name": "星币二",
+    "englishName": "Two of Pentacles",
+    "arcana": "minor",
+    "upright": "平衡、适应、多任务、灵活",
+    "reversed": "失衡、无法兼顾、资源分散、混乱",
+    "description": "星币二可能象征在多件事之间寻求平衡的挑战，提示你灵活应对各种变化，提醒同时抛太多球反而容易全部落地失控。"
+  },
+  {
+    "id": "pentacles-3",
+    "number": 3,
+    "name": "星币三",
+    "englishName": "Three of Pentacles",
+    "arcana": "minor",
+    "upright": "合作、学习、技艺、团队",
+    "reversed": "缺乏协作、质量不佳、独断、不配合",
+    "description": "星币三可能象征团队合作与技能的精进之道，提示你虚心学习并善用集体智慧，提醒好的作品往往来自共同的努力。"
+  },
+  {
+    "id": "pentacles-4",
+    "number": 4,
+    "name": "星币四",
+    "englishName": "Four of Pentacles",
+    "arcana": "minor",
+    "upright": "守财、安全、控制、吝啬",
+    "reversed": "慷慨、放手、过度消费、失去安全",
+    "description": "星币四可能象征对安全感的执着与守护之心，提示你审视自己对物质与安全的依恋，提醒握得太紧反而可能失去更多。"
+  },
+  {
+    "id": "pentacles-5",
+    "number": 5,
+    "name": "星币五",
+    "englishName": "Five of Pentacles",
+    "arcana": "minor",
+    "upright": "匮乏、困境、孤立、失去",
+    "reversed": "走出困境、恢复、接受帮助、好转",
+    "description": "星币五可能象征物质或精神上的匮乏与困境，提示你在困难中主动寻求支持，提醒不要让自尊阻止你接受伸出的援手。"
+  },
+  {
+    "id": "pentacles-6",
+    "number": 6,
+    "name": "星币六",
+    "englishName": "Six of Pentacles",
+    "arcana": "minor",
+    "upright": "慷慨、分享、给予与接受、平衡",
+    "reversed": "吝啬、不平等、自私、债务",
+    "description": "星币六可能象征给予与接受的平衡之道，提示你在施与受之间找到恰当的节奏，提醒真正的慷慨不附带任何条件。"
+  },
+  {
+    "id": "pentacles-7",
+    "number": 7,
+    "name": "星币七",
+    "englishName": "Seven of Pentacles",
+    "arcana": "minor",
+    "upright": "耐心、评估、等待收获、投资",
+    "reversed": "急躁、缺乏回报、投资失误、不耐烦",
+    "description": "星币七可能象征耐心等待耕耘后的收获，提示你冷静评估付出的方向与方式，提醒有些成果需要时间成熟而非急功近利。"
+  },
+  {
+    "id": "pentacles-8",
+    "number": 8,
+    "name": "星币八",
+    "englishName": "Eight of Pentacles",
+    "arcana": "minor",
+    "upright": "专注、勤奋、精益求精、技艺",
+    "reversed": "懒惰、缺乏动力、完美主义、不专注",
+    "description": "星币八可能象征对技艺的专注与打磨，提示你投入时间精进自己的能力，提醒精益求精与过度追求完美之间需要平衡。"
+  },
+  {
+    "id": "pentacles-9",
+    "number": 9,
+    "name": "星币九",
+    "englishName": "Nine of Pentacles",
+    "arcana": "minor",
+    "upright": "富足、独立、优雅、享受成果",
+    "reversed": "依赖、财务不稳、过度挥霍、虚荣",
+    "description": "星币九可能象征通过努力获得的丰足与优雅，提示你享受自己亲手创造的成果，提醒真正的富足来自独立与自足。"
+  },
+  {
+    "id": "pentacles-10",
+    "number": 10,
+    "name": "星币十",
+    "englishName": "Ten of Pentacles",
+    "arcana": "minor",
+    "upright": "传承、家族、财富、长久",
+    "reversed": "家族纷争、财务不稳、遗产纠纷、传统束缚",
+    "description": "星币十可能象征家族的传承与长久的积累，提示你珍惜世代相传的价值，提醒物质传承之外精神的传递更为重要。"
+  },
+  {
+    "id": "pentacles-page",
+    "number": 11,
+    "name": "星币侍从",
+    "englishName": "Page of Pentacles",
+    "arcana": "minor",
+    "upright": "学习、务实、新目标、勤奋",
+    "reversed": "缺乏方向、懒散、学业不佳、不切实际",
+    "description": "星币侍从可能象征脚踏实地的学习与追求，提示你以务实的态度迈向心中的目标，提醒梦想再远大也需要从脚下开始。"
+  },
+  {
+    "id": "pentacles-knight",
+    "number": 12,
+    "name": "星币骑士",
+    "englishName": "Knight of Pentacles",
+    "arcana": "minor",
+    "upright": "可靠、勤勉、踏实、耐心",
+    "reversed": "懒惰、固执、保守、缺乏进取",
+    "description": "星币骑士可能象征稳健前行的实干家，提示你以耐心和毅力完成手头的事，提醒稳定固然可贵但不要沦为固步自封。"
+  },
+  {
+    "id": "pentacles-queen",
+    "number": 13,
+    "name": "星币王后",
+    "englishName": "Queen of Pentacles",
+    "arcana": "minor",
+    "upright": "富足、养育、务实、安全感",
+    "reversed": "过度依赖物质、忽视自我、工作狂、不安全感",
+    "description": "星币王后可能象征务实与温暖的结合，提示你在照顾他人的同时也不忘滋养自己，提醒安全感来自内心而非外在。"
+  },
+  {
+    "id": "pentacles-king",
+    "number": 14,
+    "name": "星币国王",
+    "englishName": "King of Pentacles",
+    "arcana": "minor",
+    "upright": "富足、成功、安全、商业头脑",
+    "reversed": "贪婪、物质主义、腐败、财务失控",
+    "description": "星币国王可能象征物质上的成就与稳健，提示你以务实的智慧管理资源，提醒财富只是工具而非人生的全部目的。"
+  }
+]

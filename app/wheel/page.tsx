@@ -14,6 +14,26 @@ const PRESETS: Record<string, string> = {
   "随机惩罚": "发红包,唱首歌,做俯卧撑,讲笑话,真心话,大冒险",
 };
 
+function SparkleDecorator() {
+  return (
+    <div className="absolute inset-0 pointer-events-none overflow-hidden">
+      {[...Array(5)].map((_, i) => (
+        <span
+          key={i}
+          className="absolute animate-sparkle text-gold/60 text-sm"
+          style={{
+            left: `${15 + Math.random() * 70}%`,
+            top: `${15 + Math.random() * 70}%`,
+            animationDelay: `${i * 0.15}s`,
+          }}
+        >
+          ✦
+        </span>
+      ))}
+    </div>
+  );
+}
+
 function drawWheel(
   ctx: CanvasRenderingContext2D,
   options: string[],
@@ -74,13 +94,18 @@ function drawWheel(
 
   // Pointer triangle at top
   ctx.beginPath();
-  const pointerSize = size * 0.05;
+  const pointerSize = size * 0.055;
   ctx.moveTo(cx, 2);
-  ctx.lineTo(cx - pointerSize, 2 + pointerSize * 1.6);
-  ctx.lineTo(cx + pointerSize, 2 + pointerSize * 1.6);
+  ctx.lineTo(cx - pointerSize, 2 + pointerSize * 1.8);
+  ctx.lineTo(cx + pointerSize, 2 + pointerSize * 1.8);
   ctx.closePath();
+  // Pointer shadow
+  ctx.shadowColor = "rgba(0,0,0,0.3)";
+  ctx.shadowBlur = 6;
+  ctx.shadowOffsetY = 2;
   ctx.fillStyle = "#c41e3a";
   ctx.fill();
+  ctx.shadowColor = "transparent";
   ctx.strokeStyle = "#9b1830";
   ctx.lineWidth = 1.5;
   ctx.stroke();
@@ -228,10 +253,12 @@ export default function WheelPage() {
 
       {/* Result */}
       {result && !spinning && (
-        <div className="w-full max-w-md animate-fade-in mb-6">
-          <div className="bg-card border border-card-border rounded-xl p-6 shadow-sm text-center">
-            <p className="text-sm text-muted mb-1">转盘结果</p>
-            <p className="text-2xl font-bold text-primary">{result}</p>
+        <div className="w-full max-w-md animate-wheel-result mb-6">
+          <div className="bg-card border-2 border-primary/30 rounded-xl p-6 shadow-md text-center relative overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary/0 via-primary to-primary/0" />
+            <p className="text-sm text-muted mb-2">转盘结果</p>
+            <p className="text-3xl font-bold text-primary">{result}</p>
+            <SparkleDecorator />
           </div>
         </div>
       )}
